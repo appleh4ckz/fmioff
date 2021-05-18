@@ -1,0 +1,156 @@
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+img .ios {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    margin-top: 55px;
+}
+h1 {
+    font-size: 150px;
+    color: #d92027;
+    margin: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+     color: #e61c5d;   
+}
+button {
+    display: block;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    border: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;   
+   
+}
+
+
+.leo {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.leoo {
+    margin-left: 30px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+
+.leooo {
+    background-color:#00adb5
+}
+
+.error {
+    color:red;
+}
+
+.d-none{
+    display:none;
+}
+.center{
+    text-align: center;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display: inline-block;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.flag-text { margin-left: 10px; }
+.capital{text-transform: capitalize;}
+.select2-selection__rendered {
+    line-height: 33px !important;
+}
+.select2-container .select2-selection--single {
+    height: 37px !important;
+}
+.select2-selection__arrow {
+    height: 36px !important;
+}
+
+/*tooltip*/
+.tooltip {
+    display: inline-block;
+}
+.toolti .tooltiptext {
+    margin-left:9px;
+    width : 245px;
+    visibility: hidden;
+    background-color: #FFF;
+    border-radius:4px;
+    border: 1px solid #aeaeae;
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    margin-top : 3px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+
+.toolti:focus .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    content: "✔  ";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+
+    content: "✖  ";
+}
